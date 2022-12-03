@@ -26,7 +26,7 @@ qrProofRequestJson.body.scope[0].rules.query.req = {
 // NOTE2: type is case-sensitive
 // You can generate new schemas via https://platform-test.polygonid.com
 qrProofRequestJson.body.scope[0].rules.query.schema = {
-  "url": "https://platform-test.polygonid.com/claim-link/9721e397-e3cc-4c52-b08a-8644367e6da8",
+  "url": "https://platform-test.polygonid.com/claim-link/bbeb834b-c5df-4cde-8e18-e441041a2567",
   "type": "MyCustomSchema"
 };
 
