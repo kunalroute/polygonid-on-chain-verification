@@ -31,7 +31,9 @@ const config: HardhatUserConfig = {
     }
   },
   etherscan: {
-    apiKey: process.env.ETHERSCAN_API_KEY || undefined,
+    apiKey: {
+      polygonMumbai: process.env.ETHERSCAN_API_KEY || undefined,
+    }
   },
 };
 
